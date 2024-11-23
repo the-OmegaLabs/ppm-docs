@@ -1,0 +1,23 @@
+---
+layout: home
+
+hero:
+  name: "Plusto Package Manager"
+  text: "轻量、可扩展的混合 Linux 软件包管理器"
+  tagline: "下一代 Linux 软件管理解决方案"
+  actions:
+    - theme: brand
+      text: 快速开始
+      link: /getting-started
+    - theme: alt
+      text: 查看文档
+      link: /documentation
+
+features:
+  - title: 兼容性强
+    details: 目前支持 Debian 软件包，未来计划扩展支持 Red Hat 等与类似 Ubuntu PPA，Arch Linux AUR 的用户软件仓库。
+  - title: 简洁高效
+    details: 使用 Python 编写，代码使用模块化设计，方便扩展。
+  - title: 社区驱动
+    details: 我们欢迎你来贡献这个项目，共同完善和扩展功能。
+---
