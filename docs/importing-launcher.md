@@ -1,6 +1,6 @@
 # Importing ppm launcher
 
-When you access this webpage, I understand that your python script or custom ppm frontend might be attempting to import the ppm launcher. Unfortunately, ppm launcher **cannot** manage system packages.
+When you access this webpage, I understand that your python script or custom ppm frontend might be attempting to import the ppm launcher. Unfortunately, ppm launcher **cannot** manage system packages as a **module**.
 
 You should import **ppm modules** and implement package management instead of importing the ppm launcher.
 
