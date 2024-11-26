@@ -29,5 +29,11 @@ Clone the repository and create a symbolic link:
 sudo git clone https://github.com/Stevesuk0/ppm.git /opt/ppm
 sudo ln -sf /opt/ppm/launcher.py /usr/bin/ppm
 ```
-
 Then you can type `ppm` to verify the install.
+
+If you see this information, it means you have completed the installation and configuration of ppm.
+
+```bash
+ppm 0.1
+## The configuration file has been initialized.
+```
