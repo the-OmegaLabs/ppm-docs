@@ -10,14 +10,14 @@ hero:
       text: Getting Started
       link: /getting-started
     - theme: alt
-      text: 查看文档
+      text: View Documentation
       link: /documentation
 
 features:
-  - title: 兼容性强
-    details: 目前支持 Debian 软件包，未来计划扩展支持 Red Hat 等与类似 Ubuntu PPA，Arch Linux AUR 的用户软件仓库。
-  - title: 简洁高效
-    details: 使用 Python 编写，代码使用模块化设计，方便扩展。
-  - title: 社区驱动
-    details: 我们欢迎你来贡献这个项目，共同完善和扩展功能。
+  - title: Strong Compatibility
+    details: Currently supports Debian packages, with plans to expand support for Red Hat and similar user repositories like Ubuntu PPA and Arch Linux AUR in the future.
+  - title: Simple and Efficient
+    details: Written in Python, the code uses a modular design for easy extension.
+  - title: Community Driven
+    details: We welcome you to contribute to this project and help improve and expand its features.
 ---
