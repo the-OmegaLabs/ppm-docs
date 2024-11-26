@@ -3,11 +3,11 @@ layout: home
 
 hero:
   name: "Plusto Package Manager"
-  text: "轻量、可扩展的混合 Linux 软件包管理器"
-  tagline: "下一代 Linux 软件管理解决方案"
+  text: "lightweight, extensible, easy-to-use, and mixable"
+  tagline: "Next-generation package management solution"
   actions:
     - theme: brand
-      text: 快速开始
+      text: Getting Started
       link: /getting-started
     - theme: alt
       text: 查看文档
