@@ -6,6 +6,8 @@ export default defineConfig({
   description: "A sleek, lightweight hybrid software package manager.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
+    siteTitle: false,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
