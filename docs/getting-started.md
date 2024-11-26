@@ -15,13 +15,24 @@ requests       >= 2.32.3
 ```
 They are in pypi or your linux distro repos.
 install them such like:
-```bash
-Debian/Ubuntu:
-sudo apt install python3-dbus python3-colorama python3-requests
 
-Fedora:
-sudo dnf install python3-dbus python3-colorama python3-requests
+::: details Debian/Ubuntu
+```bash
+sudo apt install python3-dbus python3-colorama python3-requests
 ```
+:::
+
+::: details Fedora
+```bash
+sudo apt install python3-dbus python3-colorama python3-requests
+```
+:::
+
+::: details Arch Linux
+```bash
+sudo pacman -S python-dbus python-colorama python-requests
+```
+:::
 
 Clone the repository and create a symbolic link:
 
@@ -29,11 +40,12 @@ Clone the repository and create a symbolic link:
 sudo git clone https://github.com/Stevesuk0/ppm.git /opt/ppm
 sudo ln -sf /opt/ppm/launcher.py /usr/bin/ppm
 ```
-Then you can type `ppm` to verify the install.
+Then you can type `ppm --init` to verify the install.
 
 If you see this information, it means you have completed the installation and configuration of ppm.
 
 ```bash
+[example@example-server ~]# ppm --init
 ppm 0.1
-## The configuration file has been initialized.
+== The configuration file has been initialized. // [!code focus]
 ```
