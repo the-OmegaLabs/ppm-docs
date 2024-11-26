@@ -1,3 +1,7 @@
+---
+title: Getting Started
+---
+
 ## System Requirements
 
 - A Linux distribution that supports the `dpkg` format.
@@ -7,9 +11,9 @@
 
 Install these python package we need:
 ```
-colorama           >= 0.4.6
-dbus-python        >= 1.3.2
-requests           >= 2.32.3
+colorama       >= 0.4.6
+dbus-python    >= 1.3.2
+requests       >= 2.32.3
 ```
 They are in pypi or your linux distro repos.
 install them such like:
