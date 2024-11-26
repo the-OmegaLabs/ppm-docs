@@ -6,7 +6,7 @@ export default defineConfig({
   description: "A sleek, lightweight hybrid software package manager.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    siteTitle: false,
+    siteTitle: "Plusto Package Manager",
     nav: [
     ],
 
@@ -14,7 +14,7 @@ export default defineConfig({
       {
         text: 'Beginning',
         items: [
-          { text: 'Getting Started', link: '/markdown-examples' },
+          { text: 'Getting Started', link: '/getting-started' },
         ]
       }
     ],

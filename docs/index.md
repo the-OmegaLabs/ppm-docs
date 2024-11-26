@@ -11,7 +11,7 @@ hero:
       link: /getting-started
     - theme: alt
       text: View Documentation
-      link: /documentation
+      link: /welcome
 
 features:
   - title: Strong Compatibility

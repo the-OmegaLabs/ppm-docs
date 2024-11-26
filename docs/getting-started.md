@@ -44,8 +44,8 @@ Then you can type `ppm --init` to verify the install.
 
 If you see this information, it means you have completed the installation and configuration of ppm.
 
-```bash
-[example@example-server ~]# ppm --init
+```txt{3}
+[example@example-system ~]# ppm --init
 ppm 0.1
-== The configuration file has been initialized. // [!code focus]
+## The configuration file has been initialized. // [!code focus]
 ```
