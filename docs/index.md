@@ -6,7 +6,7 @@ hero:
   name: "Plusto Package Manager"
   text: "lightweight, extensible,\neasy-to-use,\nmixable."
   tagline: Next-generation package management solution.
-  image: "/favicon.png"
+  image: "/icon.png"
   actions:
     - theme: brand
       text: Quick Start
