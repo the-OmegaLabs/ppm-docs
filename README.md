@@ -1,11 +1,10 @@
 # Welcome
 
-Welcome to the Plusto Package Manager documentation page.
+Welcome to the [Plusto Package Manager documentation](https://wiki.ppm.mom) repo.
 
 <div style="text-align: center;">
   <img src="/docs/public/favicon.png" width="300" height="300" />
 </div>
-
 
 # Contributing to Documentation!
 
