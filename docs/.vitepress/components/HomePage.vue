@@ -9,7 +9,7 @@ const members = computed(() => [
   {
     avatar: 'https://github.com/Stevesuk0.png',
     name: 'Stevesuk',
-    title: 'Founder',
+    title: 'Founder | Programmer',
     links: [
       { icon: 'github', link: 'https://github.com/Stevesuk0' },
       {
