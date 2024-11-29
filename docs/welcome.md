@@ -3,7 +3,7 @@
 Welcome to the Plusto Package Manager documentation page.
 
 <div style="text-align: center;">
-  <img src="/favicon.png" width="300" height="300" />
+  <img src="https://raw.githubusercontent.com/Stevesuk0/ppm-docs/master/docs/public/favicon.png" width="300" height="300" />
 </div>
 
 
