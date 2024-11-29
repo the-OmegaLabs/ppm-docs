@@ -1,40 +1,37 @@
 {
-  "hash": "44455487",
-  "configHash": "fd137ad4",
-  "lockfileHash": "b7f8a4d3",
-  "browserHash": "ff26c5c6",
+  "hash": "729bb9ba",
+  "configHash": "d94d8d7b",
+  "lockfileHash": "1d086df3",
+  "browserHash": "39e46e98",
   "optimized": {
     "vue": {
-      "src": "../../../../node_modules/.pnpm/vue@3.5.13/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/vue@3.4.27/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "f3b71e80",
+      "fileHash": "4cd78f7b",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
-      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.6.4/node_modules/@vue/devtools-api/dist/index.js",
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.1.3_vue@3.4.27/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "0c9f0591",
+      "fileHash": "1779b7ba",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
-      "src": "../../../../node_modules/.pnpm/@vueuse+core@11.3.0_vue@3.5.13/node_modules/@vueuse/core/index.mjs",
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@10.9.0_vue@3.4.27/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "6f4880d1",
+      "fileHash": "c3f77663",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../../node_modules/.pnpm/vitepress@1.5.0_@algolia+client-search@5.15.0_postcss@8.4.49_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "a022e6ce",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading/client": {
+      "src": "../../../../node_modules/.pnpm/@nolebase+vitepress-plugin-highlight-targeted-heading@2.0.0_vitepress@1.1.4_@algolia+client-s_fp4ljkqemghzlwbjfbtq62jtpa/node_modules/@nolebase/vitepress-plugin-highlight-targeted-heading/dist/client/index.mjs",
+      "file": "@nolebase_vitepress-plugin-highlight-targeted-heading_client.js",
+      "fileHash": "1e147954",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-2SMFWCWN": {
-      "file": "chunk-2SMFWCWN.js"
-    },
-    "chunk-JN5NFW2R": {
-      "file": "chunk-JN5NFW2R.js"
+    "chunk-D4D2XWKF": {
+      "file": "chunk-D4D2XWKF.js"
     }
   }
 }

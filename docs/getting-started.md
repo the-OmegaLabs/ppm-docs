@@ -24,7 +24,7 @@ sudo apt install python3-dbus python3-colorama python3-requests
 
 ::: details Fedora
 ```bash
-sudo apt install python3-dbus python3-colorama python3-requests
+sudo dnf install python3-dbus python3-colorama python3-requests
 ```
 :::
 
