@@ -11,9 +11,7 @@ import {
 export default defineConfig({
   title: "Plusto Package Manager",
   description: "A sleek, lightweight hybrid software package manager.",
-  head: [
-      ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "Plusto Package Manager",
