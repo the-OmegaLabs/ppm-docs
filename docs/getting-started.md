@@ -48,19 +48,19 @@ For an easier installation process, you can download and run our **automated ins
 1. **Download the script** to a directory of your choice, or use the following command to download it directly:
 
 ```bash
-wget https://github.com/bzym2/ppm.web/raw/refs/heads/main/install.sh -O i.sh
+wget https://proxy.bzym.fun/https://github.com/bzym2/ppm.web/raw/refs/heads/main/install.sh
 ```
 
 2. **Make the script executable**:
 
 ```bash
-chmod +x i.sh
+chmod +x install.sh
 ```
 
 3. **Run the script** to begin the installation:
 
 ```bash
-sudo ./i.sh
+sudo ./install.sh
 ```
 
 The script will:
