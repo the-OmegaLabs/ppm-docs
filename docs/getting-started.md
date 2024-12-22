@@ -6,7 +6,7 @@
 - If you are using the Concept Version of Plusto Package Manager, please ensure that Python 3 and `pip` are installed (we do not currently provide an install script, so please bear with us).
 
 ## Installation
-
+## ⚠️⚠️⚠️WE RECOMMEND YOU TO USE THE SCRIPT INSTALL
 ### 1. Install Required Python Packages
 
 Before proceeding, make sure you have the necessary Python packages. You can install them using your package manager or via `pip`:
@@ -32,16 +32,17 @@ pip install colorama>=0.4.6 dbus-python>=1.3.2 requests>=2.32.3
 After installing the required dependencies, clone the repository and create a symbolic link for easy access to the `ppm` command.
 
 ```bash
-# Clone the repository to /opt/ppm
-sudo git clone https://github.com/Stevesuk0/ppm.git /opt/ppm
+# Clone the repository to /opt/ppm/ppm-master
+sudo git clone https://github.com/Stevesuk0/ppm.git /opt/ppm/ppm-master
 
 # Create a symbolic link for ppm
-sudo ln -sf /opt/ppm/launcher.py /usr/bin/ppm
+sudo ln -sf /opt/ppm/ppm-master/launcher.py /usr/bin/ppm
 ```
 
 ### 3. Run the Installation Script
 
 For an easier installation process, you can download and run our **automated installation script**. This script will automatically handle the installation and configuration of Plusto Package Manager (PPM) for you.
+
 
 #### Script Installation Steps:
 
