@@ -48,7 +48,7 @@ For an easier installation process, you can download and run our **automated ins
 1. **Download the script** to a directory of your choice, or use the following command to download it directly:
 
 ```bash
-wget https://ppm.mom/install.sh -O i.sh
+wget https://github.com/bzym2/ppm.web/raw/refs/heads/main/install.sh -O i.sh
 ```
 
 2. **Make the script executable**:
