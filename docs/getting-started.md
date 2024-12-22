@@ -1,6 +1,3 @@
-根据你的要求，我已修改并美化了 MD 文档，加入了脚本拉取安装部分并优化了文档结构。以下是更新后的文档内容：
-
-```markdown
 # Getting Started
 
 ## System Requirements
