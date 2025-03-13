@@ -19,7 +19,17 @@ sudo dnf install python3-dbus python3-colorama python3-requests python3-setuptoo
 
 # For Arch-based distributions
 sudo pacman -S python-dbus python-colorama python-requests python3-setuptools
+# or
+paru -S python-dbus python-colorama python-requests python3-setuptools
 ```
+If your system do not have dpkg, please install dpkg by your default package manager.
+```bash
+# For Arch-based distributions
+sudo pacman -S dpkg
+# or
+paru -S dpkg
+```
+
 
 Alternatively, you can use `pip` if you prefer to install these packages manually:
 ```bash
