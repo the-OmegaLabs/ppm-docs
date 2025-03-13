@@ -6,25 +6,24 @@
 - If you are using the Concept Version of Plusto Package Manager, please ensure that Python 3 and `pip` are installed (we do not currently provide an install script, so please bear with us).
 
 ## Installation
-## ⚠️⚠️⚠️WE RECOMMEND YOU TO USE THE SCRIPT INSTALL
 ### 1. Install Required Python Packages
 
 Before proceeding, make sure you have the necessary Python packages. You can install them using your package manager or via `pip`:
 
 ```bash
 # For Debian/Ubuntu-based distributions
-sudo apt install python3-dbus python3-colorama python3-requests
+sudo apt install python3-dbus python3-colorama python3-requests python3-setuptools
 
 # For Fedora-based distributions
-sudo dnf install python3-dbus python3-colorama python3-requests
+sudo dnf install python3-dbus python3-colorama python3-requests python3-setuptools
 
 # For Arch-based distributions
-sudo pacman -S python-dbus python-colorama python-requests
+sudo pacman -S python-dbus python-colorama python-requests python3-setuptools
 ```
 
 Alternatively, you can use `pip` if you prefer to install these packages manually:
 ```bash
-pip install colorama>=0.4.6 dbus-python>=1.3.2 requests>=2.32.3
+pip install colorama>=0.4.6 dbus-python>=1.3.2 requests>=2.32.3 setuptools
 ```
 
 ### 2. Clone the Repository and Install PPM
@@ -32,58 +31,30 @@ pip install colorama>=0.4.6 dbus-python>=1.3.2 requests>=2.32.3
 After installing the required dependencies, clone the repository and create a symbolic link for easy access to the `ppm` command.
 
 ```bash
-# Clone the repository to /opt/ppm/ppm-master
-sudo git clone https://github.com/Stevesuk0/ppm.git /opt/ppm/ppm-master
+# Clone the repository to /opt/ppm/
+sudo git clone https://github.com/Stevesuk0/ppm.git /opt/ppm/
 
 # Create a symbolic link for ppm
-sudo ln -sf /opt/ppm/ppm-master/launcher.py /usr/bin/ppm
+sudo ln -sf /opt/ppm/launcher.py /usr/bin/ppm
 ```
 
-### 3. Run the Installation Script
-
-For an easier installation process, you can download and run our **automated installation script**. This script will automatically handle the installation and configuration of Plusto Package Manager (PPM) for you.
-
-
-#### Script Installation Steps:
-
-1. **Download the script** to a directory of your choice, or use the following command to download it directly:
-
-```bash
-wget https://proxy.bzym.fun/https://github.com/bzym2/ppm.web/raw/refs/heads/main/install.sh
-```
-
-2. **Make the script executable**:
-
-```bash
-chmod +x install.sh
-```
-
-3. **Run the script** to begin the installation:
-
-```bash
-sudo ./install.sh
-```
-
-The script will:
-- Automatically detect your Linux distribution (Ubuntu, Debian, Fedora, Arch, etc.).
-- Install necessary dependencies.
-- Clone the repository to a specified directory.
-- Set up symbolic links and initialize the PPM configuration.
-
-### 4. Verify the Installation
+### 3. Verify the Installation
 
 Once the installation script completes, verify the installation by running the following command:
 
 ```bash
-ppm --init
+ppm init
 ```
 
 You should see the following output, indicating that the configuration file has been initialized:
 
 ```txt
-[example@example-system ~]# ppm --init
-ppm 0.1
-## The configuration file has been initialized.
+[example@example-system ~]# ppm init
+<> The configuration file has been initialized.
+[example@exaxmple-system ~]# ppm update
+<> Running ppm as normal user.
+<> Found 1 repositories from configuration...
+<> Updated package list: System Base (dpkg)....
 ```
 
 If you see this message, you have successfully completed the installation and configuration of PPM.
